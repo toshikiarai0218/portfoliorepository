@@ -1,0 +1,74 @@
+@charset"UTF-8";
+
+
+@media all and (max-width: 670px) {
+    .container {
+        width: 100%;
+        margin: 0 auto;
+        box-sizing: border-box;
+    }
+    
+    .header-list {
+        margin-right: 20px;
+    }
+    
+    .header-logo {
+        margin-left: 10px;
+        font-size: 15px;
+        padding-top: 10px;
+    }
+    
+    
+    .title {
+        height: 500px;
+        background-size: ;
+        width: 100%;
+    }
+    
+    .title h1 {
+        font-size: 40px;
+        text-align: center;
+    }
+    
+    .title p {
+        font-size: 10px;
+    }
+    
+    .about {
+        float: left;
+    }
+    
+    .about img {
+        width: 40%;
+        height: auto;
+        display: inline-block;
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    .about p{
+        width: 40%;
+        text-align:justify;
+        margin-top: 20px;
+        
+    }
+    
+    .skills {
+        margin-top: 450px;
+        height: 600px;
+        width: 100%;
+    }
+    
+    .skills h2,p {
+        padding-top: 20px;
+    }
+    
+    .skill-items {
+        width: 50%;
+        padding-top: 30px; 
+    }
+    
+    .contact a {
+        margin-top: 50px;
+    }
+}
